@@ -30,6 +30,5 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.1.0'
-    //provided files('libs/framework.jar')
-    compile(group: 'com.bewant2be.doit', name: 'utilslib', version: '1.0.30', ext: 'aar', classifier: 'release')
+    compile("com.bewant2be.doit:utilslib:1.0.33:release@aar")
 }
